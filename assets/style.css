@@ -3,10 +3,23 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(182, 115, 39);
+}
+
+nav{
+    background-color: black;
+    border-bottom: 2px solid rgb(182, 115, 39);;
+}
+
 .navbar-nav a{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+.navbar-toggler{
+    background-color: rgb(182, 115, 39);
 }
 
 .navbar-light .navbar-brand{
@@ -30,6 +43,14 @@
     text-decoration: none;
     white-space: nowrap;
     margin: 0;
+    color: rgb(182, 115, 39);
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.nav-item a{
+    color: rgb(182, 115, 39)
 }
 
 .imagen-header{
@@ -51,3 +72,60 @@
     z-index: 1;
 }
 
+.recetas-section{
+    height: auto;
+    width: 100%;
+}
+
+.container-receta{
+    width: 300px;
+    height: 480px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 10px 18px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    background-color: white;
+}
+
+.container-receta:hover{
+    box-shadow: 0 18px 25px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+
+}
+
+.container-imagen-plato{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.plato-foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+    object-fit:cover;
+}
+
+.container-descripcion-plato{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.titulo-plato{
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+.parrafo-plato{
+    font-size: 12px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
